@@ -1,0 +1,7 @@
+
+Consumer group 'billing-export' has no active members.
+
+GROUP           TOPIC     PARTITION  CURRENT-OFFSET  LOG-END-OFFSET  LAG   CONSUMER-ID  HOST  CLIENT-ID
+billing-export  invoices  0          41200           48911           7711  -            -     -
+billing-export  invoices  1          40877           48530           7653  -            -     -
+billing-export  invoices  2          41512           49207           7695  -            -     -

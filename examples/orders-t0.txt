@@ -1,0 +1,8 @@
+
+GROUP           TOPIC   PARTITION  CURRENT-OFFSET  LOG-END-OFFSET  LAG   CONSUMER-ID                                            HOST         CLIENT-ID
+orders-service  orders  0          884210          884262          52    orders-service-1-4f1c2a9e-7b3d-4c58-9d0e-2a6b8c1d3e4f  /10.12.4.21  orders-service-1
+orders-service  orders  1          879954          880001          47    orders-service-1-4f1c2a9e-7b3d-4c58-9d0e-2a6b8c1d3e4f  /10.12.4.21  orders-service-1
+orders-service  orders  2          901377          901420          43    orders-service-2-9a8b7c6d-1e2f-4a3b-8c4d-5e6f7a8b9c0d  /10.12.4.22  orders-service-2
+orders-service  orders  3          866003          871940          5937  orders-service-2-9a8b7c6d-1e2f-4a3b-8c4d-5e6f7a8b9c0d  /10.12.4.22  orders-service-2
+orders-service  orders  4          893118          893170          52    orders-service-3-0d1e2f3a-4b5c-4d6e-9f70-8192a3b4c5d6  /10.12.4.23  orders-service-3
+orders-service  orders  5          887640          887695          55    orders-service-3-0d1e2f3a-4b5c-4d6e-9f70-8192a3b4c5d6  /10.12.4.23  orders-service-3

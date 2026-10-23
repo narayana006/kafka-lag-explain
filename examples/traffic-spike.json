@@ -1,0 +1,133 @@
+{
+  "samples": [
+    {
+      "group": "clickstream-enricher",
+      "state": "Stable",
+      "timestamp": "2026-03-14T09:30:00Z",
+      "partitions": [
+        {
+          "topic": "clicks",
+          "partition": 0,
+          "current_offset": 5000000,
+          "log_end_offset": 5000120,
+          "consumer_id": "enricher-1-b7e1",
+          "host": "/10.20.1.11",
+          "client_id": "enricher-1"
+        },
+        {
+          "topic": "clicks",
+          "partition": 1,
+          "current_offset": 5100000,
+          "log_end_offset": 5100090,
+          "consumer_id": "enricher-2-b7e1",
+          "host": "/10.20.1.12",
+          "client_id": "enricher-2"
+        },
+        {
+          "topic": "clicks",
+          "partition": 2,
+          "current_offset": 4900000,
+          "log_end_offset": 4900150,
+          "consumer_id": "enricher-1-b7e1",
+          "host": "/10.20.1.11",
+          "client_id": "enricher-1"
+        },
+        {
+          "topic": "clicks",
+          "partition": 3,
+          "current_offset": 5050000,
+          "log_end_offset": 5050100,
+          "consumer_id": "enricher-2-b7e1",
+          "host": "/10.20.1.12",
+          "client_id": "enricher-2"
+        }
+      ]
+    },
+    {
+      "group": "clickstream-enricher",
+      "state": "Stable",
+      "timestamp": "2026-03-14T09:30:30Z",
+      "partitions": [
+        {
+          "topic": "clicks",
+          "partition": 0,
+          "current_offset": 5030000,
+          "log_end_offset": 5030130,
+          "consumer_id": "enricher-1-b7e1",
+          "host": "/10.20.1.11",
+          "client_id": "enricher-1"
+        },
+        {
+          "topic": "clicks",
+          "partition": 1,
+          "current_offset": 5130000,
+          "log_end_offset": 5130085,
+          "consumer_id": "enricher-2-b7e1",
+          "host": "/10.20.1.12",
+          "client_id": "enricher-2"
+        },
+        {
+          "topic": "clicks",
+          "partition": 2,
+          "current_offset": 4930000,
+          "log_end_offset": 4930170,
+          "consumer_id": "enricher-1-b7e1",
+          "host": "/10.20.1.11",
+          "client_id": "enricher-1"
+        },
+        {
+          "topic": "clicks",
+          "partition": 3,
+          "current_offset": 5080000,
+          "log_end_offset": 5080100,
+          "consumer_id": "enricher-2-b7e1",
+          "host": "/10.20.1.12",
+          "client_id": "enricher-2"
+        }
+      ]
+    },
+    {
+      "group": "clickstream-enricher",
+      "state": "Stable",
+      "timestamp": "2026-03-14T09:31:00Z",
+      "partitions": [
+        {
+          "topic": "clicks",
+          "partition": 0,
+          "current_offset": 5061000,
+          "log_end_offset": 5105130,
+          "consumer_id": "enricher-1-b7e1",
+          "host": "/10.20.1.11",
+          "client_id": "enricher-1"
+        },
+        {
+          "topic": "clicks",
+          "partition": 1,
+          "current_offset": 5161000,
+          "log_end_offset": 5205085,
+          "consumer_id": "enricher-2-b7e1",
+          "host": "/10.20.1.12",
+          "client_id": "enricher-2"
+        },
+        {
+          "topic": "clicks",
+          "partition": 2,
+          "current_offset": 4961000,
+          "log_end_offset": 5005170,
+          "consumer_id": "enricher-1-b7e1",
+          "host": "/10.20.1.11",
+          "client_id": "enricher-1"
+        },
+        {
+          "topic": "clicks",
+          "partition": 3,
+          "current_offset": 5111000,
+          "log_end_offset": 5155100,
+          "consumer_id": "enricher-2-b7e1",
+          "host": "/10.20.1.12",
+          "client_id": "enricher-2"
+        }
+      ]
+    }
+  ]
+}
