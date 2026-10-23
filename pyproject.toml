@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kafka-lag-explain"
+version = "0.1.0"
+description = "Report Kafka consumer lag and explain the likely cause."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Narayana Vemburaj" }]
+keywords = ["kafka", "consumer", "lag", "monitoring"]
+dependencies = []
+
+[project.optional-dependencies]
+live = ["confluent-kafka>=2.3"]
+test = ["pytest>=7"]
+
+[project.urls]
+Homepage = "https://github.com/narayana006/kafka-lag-explain"
+
+[project.scripts]
+kafka-lag-explain = "kafka_lag_explain.cli:main"
+
+[tool.setuptools]
+packages = ["kafka_lag_explain"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
